@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <form action="" method="post">
+
+            <h1>Online Consultation</h1>
+
+            <div class="block">
+                <input type="text" placeholder="Enter your name" required="required" id="name">
+            </div>
+
+            <div class="block">
+                <input type="email" placeholder="Enter your email" required="required" id="email">
+            </div>
+
+            <div class="block">
+                <input type="number" placeholder="Age" required="required" id="age">
+            </div>
+
+            <div class="block">
+                <input type="number" placeholder="Height" id="height">
+            </div>
+
+            <div class="block">
+                <input type="number" placeholder="Weight" id="weight">
+            </div>
+
+            <div class="block">
+                <span>Sex</span>
+                <label for="sex1"><input name="sexo" value="m" type="radio" id="sex1">Masculine</label>
+                <label for="sex2"><input name="sexo" value="f" type="radio" id="sex2">Feminine</label>
+            </div>
+
+            <div class="block">
+                <select required="required" name="city">
+                    <option selected="select" value="">Select your city</option>
+                    <option value="">Middletown</option>
+                    <option value="">Mount Vernon</option>
+                    <option value="">New Rochelle</option>
+                    <option value="">New York</option>
+                </select>
+            </div>
+
+            <div class="block">
+                <textarea name="rotine" required="required" placeholder="Talk a little about your rotine" rows="4"
+                    cols="50"></textarea>
+            </div>
+
+            <div class="block">
+                <label for="">Your photo:</label>
+                <input required="required" name="photo" type="file">
+            </div>
+
+            <div class="block">
+                <label for=""><input id="notice" type="checkbox">Do you want to recive more notice in your
+                    email?</label>
+            </div>
+
+            <div class="test">
+                <button class="send" id="send" type="submit" onclick="" value="envi">Send</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

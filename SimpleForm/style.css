@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    background: url(./tipos-de-frutas-1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    background: white;
+    max-width: 465px;
+    min-height: 10vh;
+    padding: 2rem;
+    border-radius: 7px;
+    margin: 4rem;
+    display: flex;
+}
+ div.block {
+     padding: 1rem;
+     max-width: 400px;
+ }
+
+ .block:valid {
+    border: 2px solid #0aff0a;
+
+ }
+
+#container h1 {
+    margin-bottom: 2rem;
+    position: center;
+}
+
+.input {
+    font-size: 10rem;
+   
+}
+
+textarea {
+    padding: 10px;
+    width: 350px;
+    height: 100px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+
+}
+
+.send {
+    background-color: rgb(18, 18, 20);
+    border-radius: 5px;
+    background-color: #e55035;
+    margin-top: 2rem;
+    padding: 0.4rem;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease-in;
+    border: none;
+}
+
+.send:hover {
+    background-color: #d63209;
+}
